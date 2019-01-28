@@ -40,9 +40,12 @@ h2 {
 }
 
 h3 {
-    font-size: 0.8rem;
-    color: lightgray;
-    line-height: 1.2rem;
+    font-family: 'Major Mono Display', monospace;
+
+    font-size: 1.5rem;
+    color: #b7ac7f;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 a {
@@ -79,6 +82,11 @@ p {
 
 .headerbox {
     height: 8rem;
+
+}
+
+.yearbox {
+    height: 3.5rem;
 
 }
 
