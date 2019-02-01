@@ -113,37 +113,33 @@ p {
 
 }
 
-.bottom-align-text-right {
-    position: absolute;
-    bottom: 0;
-}
 
-.bottom-align-text-left {
+.bottom-align-text {
     position: absolute;
     bottom: 0;
 }
 
 
 .headerbox {
-    height: 8rem;
+    padding-bottom: 5vh;
 
 }
 
 .yearbox {
-    height: 3.5rem;
+    padding-bottom: 3vh;
 
 }
 
 .placeholderbox {
-    height: 8rem;
+    height: 10vh;
 
 }
 
 .box {
-    height: 10rem;
-
-
+padding-bottom: 5vh;
 }
+
+
 
 
 .burger span, .burger span::before, .burger span::after {
