@@ -125,12 +125,7 @@ p {
 
 
 .headerbox {
-    height: 6rem;
-
-}
-
-.logobox {
-    height: 4rem;
+    height: 8rem;
 
 }
 
@@ -140,18 +135,12 @@ p {
 }
 
 .placeholderbox {
-    height: 6rem;
+    height: 8rem;
 
 }
 
 .box {
     height: 10rem;
-
-
-}
-
-.logo {
-    max-width: 20%;
 
 
 }
