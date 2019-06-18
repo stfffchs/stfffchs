@@ -110,7 +110,10 @@ a:hover {
     opacity: 90%;
 }
 
-
+#lightgray{
+    color: dimgray;
+    opacity: 10%;
+}
 
 .yearbox {
     padding-bottom: 3vh;
