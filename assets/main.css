@@ -17,6 +17,7 @@ html {
 body {
     background: whitesmoke;
     cursor: crosshair;
+    height: 100vh;
 }
 
 nav {
