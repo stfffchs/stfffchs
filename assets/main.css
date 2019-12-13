@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
 
 /*  HTML
 ========================================== */
 
 html {
     font-family: 'IBM Plex Sans', sans-serif !important;
-    font-size: 1.1rem;
+    font-weight: 200 !important;
+    font-size: 1rem;
+    color: #555555;
     line-height: 1.5rem;
     z-index: 0;
 }
@@ -16,16 +18,16 @@ html {
 
 body {
     font-family: 'IBM Plex Sans', sans-serif !important;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 200 !important;
+    color: #555555;
     background: whitesmoke;
     cursor: crosshair;
     height: 100vh;
 }
 
-nav {
-    background: whitesmoke !important;
-    font-size: 1.5rem;
-    ;
+div {
+    margin: 0;
 }
 
 
@@ -33,51 +35,43 @@ nav {
 ========================================== */
 
 h1 {
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: #555555;
-    padding-top: 10%;
+    font-size: 2.488rem;
+    font-weight: 200 !important;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    color: #555555;
-    padding-top: 3%;
+    font-size: 2.074rem;
+    font-weight: 200 !important;
 }
 
 h3 {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    color: #555555;
-    padding-top: 10%;
-    padding-bottom: 2%;
+    font-size: 1.728rem;
+    font-weight: 200 !important;
 }
 
 h4 {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    color: black;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border-bottom: 3px solid #b7ac7f;
+    font-size: 1.44rem;
+    font-weight: 200 !important;
 }
 
 h5 {
-    color: #555555;
-    font-size: 1rem;
+    font-size: 1.44rem;
+    font-weight: 400 !important;
 }
 
 h6 {
-    text-transform: uppercase;
-    color: #555555;
-    padding-top: 2%;
-    font-size: .6rem;
+    font-size: 1.44rem;
+    font-weight: 200 !important;
+    font-style: italic;
+}
+
+h7 {
+    font-size: .8rem;
+    padding-bottom: 1rem;
 }
 
 p {
-    color: #555555;
-    padding-top: 2%;
+    font-size: 1.25rem;
 }
 
 a {
@@ -86,10 +80,14 @@ a {
 }
 
 a:hover {
-    /*background-color: #b7ac7f;*/
-    color: black;
+    font-weight: 400;
+    color: #555555;
     text-decoration: none;
     opacity: 90%;
+}
+
+mark {
+    background-color: #b7ac7f
 }
 
 .noHover {
@@ -97,15 +95,15 @@ a:hover {
 }
 
 .yearbox {
-    padding-bottom: 3vh;
+    padding-bottom: .5rem;
 }
 
 .placeholderbox {
-    height: 5vh;
+    height: 5rem;
 }
 
 .box {
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 
 .topbox {
@@ -128,8 +126,7 @@ a:hover {
 }
 
 .row {
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0;
 }
 
 .img {
@@ -237,11 +234,6 @@ body {
 
 /* modules/headline.css */
 
-h1 {
-    margin-bottom: 1.5em;
-    margin-top: 0;
-}
-
 
 /* modules/navigation.css */
 
@@ -271,14 +263,6 @@ h1 {
 
 .navigation__item {
     margin: 0.5em;
-}
-
-
-/* modules/paragraph.css */
-
-p {
-    margin-bottom: 1.5em;
-    margin-top: 1.5em;
 }
 
 
