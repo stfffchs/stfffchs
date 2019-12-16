@@ -136,7 +136,12 @@ mark {
 }
 
 #contact {
-    height: .8rem;
+    height: 1rem;
+    margin-top: -.1rem;
+}
+
+#download {
+    height: 1rem;
 }
 
 #main-navigation ul li.active-link>a {
