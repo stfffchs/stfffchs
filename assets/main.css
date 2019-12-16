@@ -106,8 +106,15 @@ mark {
     padding-bottom: 3vh;
 }
 
-.topbox {
-    height: 20vh;
+.contactbutton {
+    height: 4rem;
+    width: 4rem;
+    background-color: red;
+    position: sticky;
+    border-radius: 50%;
+    z-index: 100;
+    float: right;
+    margin: 2rem;
 }
 
 .separatorline {
