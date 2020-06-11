@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
 /*  HTML
 ========================================== */
 
@@ -89,6 +89,10 @@ a:hover {
 mark {
     background-color: #b7ac7f
 }
+/* --------------------------------------- faceit mixins */
+.faceit{
+    font-family: 'Sen', sans-serif;
+}
 
 .noHover {
     pointer-events: none;
@@ -173,6 +177,10 @@ mark {
     width: auto;
     height: 2rem;
     margin: .5rem;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 
