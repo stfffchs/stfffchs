@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 /*  HTML
 ========================================== */
 
@@ -90,8 +92,19 @@ mark {
     background-color: #b7ac7f
 }
 /* --------------------------------------- faceit mixins */
-.faceit{
+.faceit h1{
     font-family: 'Sen', sans-serif;
+    font-weight: 700 !important;
+}
+
+.faceit p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
+
+}
+
+.text_align_center {
+    text-align: center;
 }
 
 .noHover {
@@ -149,6 +162,10 @@ mark {
 
 .margin-bottom-30{
     margin-bottom: 30px;
+}
+
+.padding-top-30{
+    padding-top: 30px;
 }
 
 .whitespace100{
