@@ -107,20 +107,25 @@ mark {
     font-weight: 300 !important;
 }
 
+/* --------------------------------------- datehunter mixins */
+.information_blogs.datehunter {
+    background: #C42126;
+}
+
 
 .center {
     text-align: center;
     align-self: center;
 }
 
-/* .center:after {
+.video:after {
     content: "";
     position: absolute;
     width: 100%;
     height: 3px;
     bottom: 0;
     background-color: red;
-  } */
+  }
 
   .information_blogs {
     background: whitesmoke;
