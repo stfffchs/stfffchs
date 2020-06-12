@@ -24,7 +24,6 @@ body {
     font-weight: 200 !important;
     color: #555555;
     background: whitesmoke;
-    cursor: crosshair;
     height: 100vh;
 }
 
@@ -196,6 +195,10 @@ mark {
     max-height: 3rem !important;
     height: auto;
     
+}
+
+.img-width100{
+    width: 100%;
 }
 
 .margin-bottom-30{
